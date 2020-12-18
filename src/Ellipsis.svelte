@@ -22,7 +22,7 @@
   </span>
 </div>
 
-<style lang="sass">
+<style>
   [container] {
     max-width: calc(100% - 1px);
     width: calc(100% - 1px);
