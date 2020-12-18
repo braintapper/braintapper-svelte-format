@@ -1,6 +1,6 @@
 {
     "name": "braintapper-svelte-format",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Svelte component for formatting values",
     "author": "braintapper",
     "license": "MIT",

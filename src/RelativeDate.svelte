@@ -101,7 +101,7 @@
 
   let currentDate = Date.create().reset();
 
-  recalc = ()=> {
+  let recalc = ()=> {
     currentDate = Date.create().reset();
   }
 

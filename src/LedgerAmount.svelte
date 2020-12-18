@@ -15,7 +15,7 @@
   let containerClasses = []
   let amountClasses = []
 
-  formatAmount = (amount)=> {
+  let formatAmount = (amount)=> {
 
     // reset the containerClasses
     containerClasses = []
