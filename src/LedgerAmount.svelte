@@ -46,7 +46,7 @@
 </script>
 <span class={containerClasses.join(" ")}><span class={amountClasses.join(" ")}>{ledgerAmount}</span></span>
 
-<style lang="sass">
+<style>
 
 .negative {
   color: var(--red); }

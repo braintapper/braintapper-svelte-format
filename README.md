@@ -5,25 +5,7 @@ Brief description here
 
 # Usage
 
-## Component Import
-
-Import the components you need in your <script> tag:
-
-```
-  import Indent from "braintapper-svelte-componentname";
-```
-
-## Example Markup
-
-```
-  <componentname/>
-```
-
-## Prop Values
-
-### prop
-
-### prop
+[REPL](https://svelte.dev/repl/3294b3ad96034b87a62d2892445af4d5?version=3.31.0)
 
 
 ---
