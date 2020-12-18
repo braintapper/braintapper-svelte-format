@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "url": "https://github.com/braintapper/braintapper-svelte-componentname"
-  },  
+  },
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
@@ -26,5 +26,8 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "sugar-and-spice": "0.0.5"
+  }
 }
