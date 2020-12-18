@@ -13,7 +13,7 @@
   
 
   let translate = (val, dummy) => {
-    let theDate = undefined;
+    let theDate;
 
     if (value) {
       if (Object.isDate(val)) {
@@ -80,6 +80,7 @@
 
   let datePosition = (val, dummy) => {
     if (value) {
+      let theDate;
       if (Object.isDate(val)) {
         theDate = val;
       } else {

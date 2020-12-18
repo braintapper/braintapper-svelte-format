@@ -9,7 +9,7 @@
   export let value = undefined;
   export let fromId = false;
 
-  let render = (val) => {
+  let format = (val) => {
     if (val) {
       if (fromId) {
         return Date.create(`${val}`.insert("-",6).insert("-",4));
@@ -21,7 +21,7 @@
     }
   }
 
-  $: output = render(value);
+  $: output = format(value);
 
 </script>
 {output}
