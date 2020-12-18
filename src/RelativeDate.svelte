@@ -30,7 +30,7 @@
       let dateFormat = "%Y-%m-%d";
       let timeFormat = "%H:%M";
 
-      isFuture = theDate.isFuture();
+      let isFuture = theDate.isFuture();
 
       if (isFuture) {
         prefix = "last"
@@ -40,7 +40,7 @@
         suffix = "ago"
       }
 
-      isPast = !isFuture
+      let isPast = !isFuture
 
       if (theDate.isToday() ) {
         return "Today"
