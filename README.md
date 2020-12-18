@@ -1,6 +1,6 @@
-# braintapper-svelte-componentname
+# braintapper-svelte-format
 
-Brief description here
+Value formatting for Svelte.
 
 
 # Usage
