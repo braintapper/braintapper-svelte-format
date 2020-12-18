@@ -12,8 +12,7 @@
   let render = (val) => {
     if (val) {
       if (fromId) {
-        console.log(("#{val}".insert("-",6).insert("-",4)));
-        return Date.create("#{val}".insert("-",6).insert("-",4));
+        return Date.create(`${val}`.insert("-",6).insert("-",4));
       } else {
         return Date.create(val).format();
       }

@@ -13,7 +13,7 @@
   
 
   let translate = (val, dummy) => {
-    let theDate;
+    let theDate = undefined;
 
     if (value) {
       if (Object.isDate(val)) {
