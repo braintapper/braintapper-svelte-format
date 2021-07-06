@@ -10,7 +10,7 @@
   export let value = 0;
   export let showCurrency = true;
   export let showParentheses = true;
-  export let showCurrencyBefore = true;
+  // export let showCurrencyBefore = true;
 
   let containerClasses = []
   let amountClasses = []
